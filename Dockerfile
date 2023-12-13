@@ -9,7 +9,7 @@ ENTRYPOINT [ "echo", "hello" ]
 #git
 FROM alpine/git as repo
 
-MAINTAINER name mylandmarktech@gmail.com
+MAINTAINER tosamisaac7@gmail.com
 
 WORKDIR /app
 RUN git clone https://github.com/LandmakTechnology/maven-web-app.git
